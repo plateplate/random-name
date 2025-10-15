@@ -1,0 +1,287 @@
+  {
+    "id": 1,
+    "name": "Class Task Tracker",
+    "description": "A simple app for students to track assignments, deadlines, and progress with shared class boards.",
+    "techStack": ["React", "Node.js", "Express", "MongoDB"],
+    "difficulty": "Beginner",
+    "estHours": 8,
+    "coreFeatures": [
+      "Create/update/delete tasks",
+      "Due date reminders",
+      "Class-level shared boards",
+      "Filter by status and course"
+    ],
+    "learningObjectives": [
+      "CRUD APIs",
+      "State management in React",
+      "Basic authentication (email or school SSO)"
+    ],
+    "tags": ["productivity", "education", "fullstack"],
+    "repoSuggestion": "class-task-tracker",
+    "demoLink": null
+  },
+  {
+    "id": 2,
+    "name": "Study Group Scheduler",
+    "description": "Match classmates based on availability and subjects to form study groups and schedule sessions.",
+    "techStack": ["Vue", "Firebase (Auth + Firestore)", "Tailwind CSS"],
+    "difficulty": "Intermediate",
+    "estHours": 12,
+    "coreFeatures": [
+      "Availability calendar",
+      "Auto-match by subject and time",
+      "Group chat or links",
+      "Notifications for upcoming sessions"
+    ],
+    "learningObjectives": [
+      "Real-time data with Firestore",
+      "Implementing simple matching algorithms",
+      "Responsive UI"
+    ],
+    "tags": ["education", "real-time", "collaboration"],
+    "repoSuggestion": "study-group-scheduler",
+    "demoLink": null
+  }
+  {
+    "id": 6,
+    "name": "Concept Flashcards with Spaced Repetition",
+    "description": "Create flashcards and use a spaced-repetition algorithm to schedule reviews for better retention.",
+    "techStack": ["React", "Redux", "IndexedDB (local)"],
+    "difficulty": "Intermediate",
+    "estHours": 12,
+    "coreFeatures": [
+      "Create/import flashcard decks",
+      "Spaced repetition scheduling (SM-2)",
+      "Progress analytics",
+      "Offline-first support"
+    ],
+    "learningObjectives": [
+      "Local storage and offline-first design",
+      "Implementing algorithms (SM-2)",
+      "Charts for analytics"
+    ],
+    "tags": ["education", "offline", "algorithms"],
+    "repoSuggestion": "sr-flashcards",
+    "demoLink": null
+  },
+  {
+    "id": 8,
+    "name": "Grading Rubric Generator",
+    "description": "Teachers create rubrics, apply them to submissions, and auto-generate feedback templates.",
+    "techStack": ["Django", "PostgreSQL", "HTMX"],
+    "difficulty": "Intermediate",
+    "estHours": 12,
+    "coreFeatures": [
+      "Build & reuse rubrics",
+      "Apply rubric to student submissions",
+      "Auto feedback snippets",
+      "Export grades CSV"
+    ],
+    "learningObjectives": [
+      "Form models and relationships",
+      "Server-rendered UX with progressive enhancement",
+      "Exporting data"
+    ],
+    "tags": ["education", "teacher-tools", "productivity"],
+    "repoSuggestion": "rubric-generator",
+    "demoLink": null
+  },
+  {
+    "id": 9,
+    "name": "Tiny Marketplace for Class Projects",
+    "description": "Students sell or showcase completed projects with buy/contact flows and simple portfolios.",
+    "techStack": ["React", "Stripe (payments)", "Firebase Storage"],
+    "difficulty": "Advanced",
+    "estHours": 18,
+    "coreFeatures": [
+      "Product pages for projects",
+      "Payment integration (Stripe) or contact seller",
+      "Portfolio pages per student",
+      "Search & categories"
+    ],
+    "learningObjectives": [
+      "E-commerce basics",
+      "Handling media & streaming",
+      "Security for payments"
+    ],
+    "tags": ["marketplace", "ecommerce", "portfolio"],
+    "repoSuggestion": "class-project-marketplace",
+    "demoLink": null
+  },
+  {
+    "id": 10,
+    "name": "API Learning Playground",
+    "description": "Web app where students can build, test, and document tiny REST APIs; includes auto-generated docs from examples.",
+    "techStack": ["Node.js (Express)", "Swagger/OpenAPI", "React Playground UI"],
+    "difficulty": "Intermediate",
+    "estHours": 16,
+    "coreFeatures": [
+      "Create mock endpoints",
+      "Test calls from the browser",
+      "Auto-generate docs from routes",
+      "Shareable endpoint collection"
+    ],
+    "learningObjectives": [
+      "Designing REST APIs",
+      "API documentation (OpenAPI)",
+      "Client-server debugging"
+    ],
+    "tags": ["developer-tools", "education", "APIs"],
+    "repoSuggestion": "api-learning-playground",
+    "demoLink": null
+  }
+    "id": 2,
+    "name": "Study Group Scheduler",
+    "description": "Match classmates based on availability and subjects to form study groups and schedule sessions.",
+    "techStack": ["Vue", "Firebase (Auth + Firestore)", "Tailwind CSS"],
+    "difficulty": "Intermediate",
+    "estHours": 12,
+    "coreFeatures": [
+      "Availability calendar",
+      "Auto-match by subject and time",
+      "Group chat or links",
+      "Notifications for upcoming sessions"
+    ],
+    "learningObjectives": [
+      "Real-time data with Firestore",
+      "Implementing simple matching algorithms",
+      "Responsive UI"
+    ],
+    "tags": ["education", "real-time", "collaboration"],
+    "repoSuggestion": "study-group-scheduler",
+    "demoLink": null
+  },
+  {
+    "id": 3,
+    "name": "Peer Code Review Hub",
+    "description": "A lightweight platform for students to submit code snippets, request peer reviews, and leave inline comments.",
+    "techStack": ["Next.js", "PostgreSQL", "Prisma", "Highlight.js"],
+    "difficulty": "Intermediate",
+    "estHours": 15,
+    "coreFeatures": [
+      "Submit snippets or links to repos",
+      "Inline commenting on code",
+      "Like/upvote useful reviews",
+      "Review history and versioning"
+    ],
+    "learningObjectives": [
+      "Text diffing and highlighting",
+      "Database relations (users, submissions, comments)",
+      "Server-side rendering with Next.js"
+    ],
+    "tags": ["developer-tools", "education", "collaboration"],
+    "repoSuggestion": "peer-code-review-hub",
+    "demoLink": null
+  },
+  {
+  {
+    "id": 6,
+    "name": "Concept Flashcards with Spaced Repetition",
+    "description": "Create flashcards and use a spaced-repetition algorithm to schedule reviews for better retention.",
+    "techStack": ["React", "Redux", "IndexedDB (local)"],
+    "difficulty": "Intermediate",
+    "estHours": 12,
+    "coreFeatures": [
+      "Create/import flashcard decks",
+      "Spaced repetition scheduling (SM-2)",
+      "Progress analytics",
+      "Offline-first support"
+    ],
+    "learningObjectives": [
+      "Local storage and offline-first design",
+      "Implementing algorithms (SM-2)",
+      "Charts for analytics"
+    ],
+    "tags": ["education", "offline", "algorithms"],
+    "repoSuggestion": "sr-flashcards",
+    "demoLink": null
+  },
+  {
+    "id": 7,
+    "name": "Campus Resource Map",
+    "description": "Interactive map of campus resources (study rooms, printers, labs) with real-time availability.",
+    "techStack": ["Leaflet or Mapbox", "React", "Socket.IO", "Redis"],
+    "difficulty": "Advanced",
+    "estHours": 20,
+    "coreFeatures": [
+      "Interactive map pins",
+      "Real-time availability (rooms/printers)",
+      "Search by resource type",
+      "Report issues (broken printer)"
+    ],
+    "learningObjectives": [
+      "Maps & geolocation",
+      "Real-time updates with websockets",
+      "Caching with Redis"
+    ],
+    "tags": ["maps", "real-time", "infrastructure"],
+    "repoSuggestion": "campus-resource-map",
+    "demoLink": null
+  },
+  {
+    "id": 8,
+    "name": "Grading Rubric Generator",
+    "description": "Teachers create rubrics, apply them to submissions, and auto-generate feedback templates.",
+    "techStack": ["Django", "PostgreSQL", "HTMX"],
+    "difficulty": "Intermediate",
+    "estHours": 12,
+    "coreFeatures": [
+      "Build & reuse rubrics",
+      "Apply rubric to student submissions",
+      "Auto feedback snippets",
+      "Export grades CSV"
+    ],
+    "learningObjectives": [
+      "Form models and relationships",
+      "Server-rendered UX with progressive enhancement",
+      "Exporting data"
+    ],
+    "tags": ["education", "teacher-tools", "productivity"],
+    "repoSuggestion": "rubric-generator",
+    "demoLink": null
+  },
+  {
+    "id": 9,
+    "name": "Tiny Marketplace for Class Projects",
+    "description": "Students sell or showcase completed projects with buy/contact flows and simple portfolios.",
+    "techStack": ["React", "Stripe (payments)", "Firebase Storage"],
+    "difficulty": "Advanced",
+    "estHours": 18,
+    "coreFeatures": [
+      "Product pages for projects",
+      "Payment integration (Stripe) or contact seller",
+      "Portfolio pages per student",
+      "Search & categories"
+    ],
+    "learningObjectives": [
+      "E-commerce basics",
+      "Handling media & streaming",
+      "Security for payments"
+    ],
+    "tags": ["marketplace", "ecommerce", "portfolio"],
+    "repoSuggestion": "class-project-marketplace",
+    "demoLink": null
+  },
+  {
+    "id": 10,
+    "name": "API Learning Playground",
+    "description": "Web app where students can build, test, and document tiny REST APIs; includes auto-generated docs from examples.",
+    "techStack": ["Node.js (Express)", "Swagger/OpenAPI", "React Playground UI"],
+    "difficulty": "Intermediate",
+    "estHours": 16,
+    "coreFeatures": [
+      "Create mock endpoints",
+      "Test calls from the browser",
+      "Auto-generate docs from routes",
+      "Shareable endpoint collection"
+    ],
+    "learningObjectives": [
+      "Designing REST APIs",
+      "API documentation (OpenAPI)",
+      "Client-server debugging"
+    ],
+    "tags": ["developer-tools", "education", "APIs"],
+    "repoSuggestion": "api-learning-playground",
+    "demoLink": null
+  }
+]
